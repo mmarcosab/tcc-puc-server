@@ -9,15 +9,12 @@ Projeto desenvolvido para obtenção do
 Uma vez que você escolhe o tema a ser abordado no seu TCC, apresentamos um conjunto genérico de funcionalidades que a sua aplicação deve apresentar. 
 Cabe a você escolher em qual funcionalidade você irá incorporar os requisitos apresentados na relação a seguir. São eles:  
 
-|ID	  |  Requisito Funcional	                |  Descrição
-RF-01	|  Login e registro de usuários	        | O sistema deve oferecer funcionalidade de login de usuários com a possibilidade do registro de novos usuários de forma autônoma por pessoas que ainda não estão cadastradas
-RF-02	|  Controle de acesso a funcionalidades	| O sistema deve controlar o acesso a funcionalidades a partir dos perfis de usuários como, por exemplo, os seguintes: administrador do sistema, gestor/gerente/operador e usuário
-RF-03	|  Menu do sistema	                      | O sistema deve apresentar um menu de opções que dê acesso a todas as funcionalidades que o sistema provê
-RF-04	|  Telas de cadastro	                    | O sistema deve ser estruturado com pelo menos 5 entidades para as quais devem ser fornecidas telas de cadastro completas cumprindo os seguintes itens:
-                                              | - A tela deve oferecer todas as operações de CRUD (Create/Retrieve/Update/Delete), a menos que haja uma regra de negócio que 
-                                              | justifique não poder excluir ou alterar os dados diretamente, 
-                                              | - A tela deve oferecer funcionalidade de exportação de dados em formato Excel ou PDF;
-                                              | - Nos campos do cadastro que estão associados a outras entidades do sistema, deve ser fornecido um mecanismo de lookup dos dados 
+|ID	  |  Requisito Funcional	                |  Descrição |
+|-----|---------------------------------------|-----------------|
+RF-01	|  Login e registro de usuários	        | O sistema deve oferecer funcionalidade de login de usuários com a possibilidade do registro de novos usuários de forma autônoma por pessoas que ainda não estão cadastradas |
+RF-02	|  Controle de acesso a funcionalidades	| O sistema deve controlar o acesso a funcionalidades a partir dos perfis de usuários como, por exemplo, os seguintes: administrador do sistema, gestor/gerente/operador e usuário |
+RF-03	|  Menu do sistema	                      | O sistema deve apresentar um menu de opções que dê acesso a todas as funcionalidades que o sistema provê |
+RF-04	|  Telas de cadastro	                    | O sistema deve ser estruturado com pelo menos 5 entidades para as quais devem ser fornecidas telas de cadastro completas cumprindo os seguintes itens: A tela deve oferecer todas as operações de CRUD (Create/Retrieve/Update/Delete), a menos que haja uma regra de negócio que justifique não poder excluir ou alterar os dados diretamente. A tela deve oferecer funcionalidade de exportação de dados em formato Excel ou PD . Nos campos do cadastro que estão associados a outras entidades do sistema, deve ser fornecido um mecanismo de lookup dos dados 
                                               | da outra entidade (combobox ou janela de seleção), além da possibilidade de se informar o respectivo código da entidade associada.
 RF-05	|  Tela mestre/detalhe	                  | O sistema deve apresentar pelo menos uma tela em que seja feito cadastro de dados em estrutura mestre/detalhe (duas entidades associadas)
 RF-06	|  Telas de transações	                  | O sistema deve apresentar pelo menos 3 telas de processamento de transações com suas respectivas regras de negócio a partir das entidades do sistema.
