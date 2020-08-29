@@ -35,15 +35,10 @@ RNF-03	| Banco de dados	                 |    Os dados do sistema devem ser arma
 
 As restrições técnicas  limitam o que poderá ser empregado por você no desenvolvimento da sua aplicação. São elas:
 
-ID	    Restrição	                            Descrição
-RT-01	  Aplicação 100% Web	                  O sistema deve ser 100% compatível com a Web, utilizando navegadores/browsers como clientes e servidores Web como ambiente de 
-                                              armazenamento de dados
-RT-02	  Tabelas de Bancos de Dados	          O banco de dados do sistema deverá ter no mínimo 8 tabelas associadas ao propósito principal da solução.  No caso de projetos 
-                                              que usem bancos noSQL, devem ser retratadas pelo menos 6 entidades.
-                                              IMPORTANTE: Não entram nesta conta as tabelas relacionadas a usuários e controle de acesso.
-RT-03	  Plataformas de Gestão de Conteúdo	    Para o cumprimento dos requisitos funcionais NÃO poderá ser utilizada uma plataforma pronta de gestão de sites de conteúdos como 
-                                              Wordpress, Drupal, Joomla ou similar
-RT-04	  Linguagens de Programação	            As linguagens de programação utilizadas no desenvolvimento dos módulos de Back-End e Front-end devem constar da relação 
-apresentada nas disciplinas do curso.         É vedado o uso de linguagens de programação diferentes daquelas vistas no curso
-
-
+|ID	    | Restrição	                       |     Descrição                |
+|-------|----------------------------------|------------------------------|
+|RT-01	|  Aplicação 100% Web	             |     O sistema deve ser 100% compatível com a Web, utilizando navegadores/browsers como clientes e servidores Web como ambiente de armazenamento de dados |
+|RT-02	| Tabelas de Bancos de Dados	     |    O banco de dados do sistema deverá ter no mínimo 8 tabelas associadas ao propósito principal da solução.  No caso de projetos que usem bancos noSQL, devem ser retratadas pelo menos 6 entidades. IMPORTANTE: Não entram nesta conta as tabelas relacionadas a usuários e controle de acesso. |
+|RT-03	|  Plataformas de Gestão de Conteúdo	 |   Para o cumprimento dos requisitos funcionais NÃO poderá ser utilizada uma plataforma pronta de gestão de sites de conteúdos como Wordpress, Drupal, Joomla ou similar |
+|RT-04	|  Linguagens de Programação	     |       As linguagens de programação utilizadas no desenvolvimento dos módulos de Back-End e Front-end devem constar da relação 
+apresentada nas disciplinas do curso. É vedado o uso de linguagens de programação diferentes daquelas vistas no curso |
